@@ -1,0 +1,310 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #0e3160;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container{
+    width: 80%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    /* width: 100px; */
+    /* height:80px; */
+    /* background-color:blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 30px; */
+    /* font-family: segoe UI; */
+}
+.search-button{
+ cursor: pointer;
+}
+.search-button{
+    padding:20px 20px;
+    align-items: center;
+    text-shadow: #cc242d;
+}
+
+.nav{
+    width: 25%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    justify-content: space-between;
+    font-family: segoe UI;
+}
+
+.nav-item{
+
+    cursor: pointer;
+}
+
+.log-item{
+    height: 25px;
+    width: 10%;
+    display: flex;
+    cursor: pointer;
+}
+/* banner css  */
+
+.banner{
+    width: 100%;
+    height: 700px;
+    background-color: #f6f6f6;
+    /* background-color: gray; */
+    overflow: hidden;
+    display: flex;
+}
+
+.banner-details{
+    width: 50%;
+    height: 700px;
+    /* background-color:gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text{
+    width: 70%;
+    height: 500px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.banner-title{
+    font-size: 60px;
+    font-family: segoe UI;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.highlight{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+    border: 15px solid #0e3160;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0e3160;
+}
+
+
+/* branding section css  */
+
+.branding {
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: red; */
+    padding: 50px 3%;
+    display: flex;
+    column-gap: 5%;
+}
+
+.branding-1
+{
+    width: 25%;
+    height: 600px;
+    background-color: #98c6d2;
+    background-image: url('images/him.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 15%;
+    padding: 50px 5%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: segoe UI;
+    color: white;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+
+.branding-2
+{
+    width: 25%;
+    height: 600px;
+    background-color: royalblue;
+    background-image: url('images/her.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 15%;
+    padding: 50px 5%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: segoe UI;
+    color: white;
+    justify-content: center;
+    text-transform: uppercase;
+    
+
+}
+
+.branding-3 {
+    width: 40%;
+    height: 600px;
+    background-color: #e07e88;
+    background-image: url('images/sale\ 2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:0 15%;
+    font-size: 60px;
+    color:darkturquoise;
+    font-family: sans-serif;
+}
+
+.brand-title
+{
+    background-color: #cc242d;
+    padding: 10px;
+}
+
+/* products css  */
+
+.products {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+   padding-bottom:5px;
+    width: 20%;
+    background-color:aliceblue;
+    
+}
+
+.product-img{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.pro-img{
+    width: 100%;
+    display: flex;
+}
+
+.product-details{
+    padding: 10px;
+    font-family: segoe UI;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.btn-1{
+    padding: 12px 20px;
+    background-color: lightblue;
+    border:color red;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+
+
+ .btn-2{ 
+    padding: 12px 20px;
+    background-color:darkgray;
+    border: color red;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+ }
+ /* products css end  */
+
+
+       /* brands css start */
+
+       .brands {
+        width: 100%;
+        background-color:lightblue;
+        padding: 80px 10%;
+        
+    }
+    .brandname{
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+   
+    
+/* .slider-box{ 
+    width:90%;
+    height
+    margin:30px auto;
+    position:relative;
+}
+
+.slider{
+    width:100%;
+    display:inline-flex;
+}
+
+.slider img{
+    width: 100;
+}
+
+.indicators{
+    position: absolute;
+    left:50%;
+    bottom: 20px;
+    transform: translateX(-50);
+}
+
+.indicators span{
+display:inline-block;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.5);
+cursor: pointer;
+}*/
+
